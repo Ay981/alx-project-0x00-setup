@@ -1,8 +1,8 @@
 import Image from "next/image";
-import HOUSE_IMAGE from "@/public/assets/house.png";
-import STAR_IMAGE from "@/public/assets/star.png";
+import HOUSE_IMAGE from "../public/assets/images/house.png";
+import STAR_IMAGE from "../public/assets/images/star.png";
 import React from "react";
-import Pill from "./Pill";
+import Pill from "../components/Pill";
 
 const About: React.FC = () => {
   return (
@@ -26,13 +26,13 @@ const About: React.FC = () => {
             <h3 className=" font-semibold text-[22px]">
               Villa Arrecife Beach House
             </h3>
-            <p className=" font-medium text=[17px] text-[#929292]">
+            <p className=" font-medium text-[17px] text-[#929292]">
               Sideman, Bali, Indonesia
             </p>
           </div>
           <div className="flex items-center">
             <Image src={STAR_IMAGE} alt="star" />
-            <p className=" font-medium text=[17px] ml-2">4.76</p>
+            <p className=" font-medium text-[17px] ml-2">4.76</p>
           </div>
         </div>
 
@@ -55,7 +55,7 @@ const About: React.FC = () => {
                   fill="#131212"
                 />
               </svg>
-              <p className=" font-medium text=[17px] ml-2">2,304</p>
+              <p className=" font-medium text-[17px] ml-2">2,304</p>
             </div>
             <div className="flex items-center">
               <svg
@@ -70,7 +70,7 @@ const About: React.FC = () => {
                   fill="#131212"
                 />
               </svg>
-              <p className=" font-medium text=[17px] ml-2">4</p>
+              <p className=" font-medium text-[17px] ml-2">4</p>
             </div>
             <div className="flex items-center">
               <svg
@@ -89,7 +89,7 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className="flex flex-col">
-            <p className=" font-medium text=[17px] text-[#131212]">
+            <p className=" font-medium text-[17px] text-[#131212]">
               $450
               <span className="text-[#929292] font-normal">/night</span>
             </p>
