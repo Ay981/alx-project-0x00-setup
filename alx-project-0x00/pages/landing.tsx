@@ -15,21 +15,24 @@ const Landing: React.FC = () => {
       <div className="flex items-start gap-4">
         <div className="flex flex-col items-center gap-2">
             <h3 className="text-md font-medium">Small</h3>
-            <Button title="Button" styles="rounded-sm text-sm py-1 px-2" />
-            <Button title="Button" styles="rounded-md text-sm py-1 px-2" />
-            <Button title="Button" styles="rounded-full text-sm py-1 px-2" />
+            <Button title="Button" styles="rounded-sm text-sm py-1 px-2 bg-red-500" />
+            <Button title="Button" styles="rounded-md text-sm py-1 px-2 bg-red-500" />
+            <Button title="Button" styles="rounded-lg text-sm py-1 px-2 bg-red-500" />
+            <Button title="Button" styles="rounded-full text-sm py-1 px-2 bg-red-500" />
         </div>
         <div className="flex flex-col items-center gap-2">
             <h3 className="text-md font-medium">Medium</h3>
-            <Button title="Button" styles="rounded-sm" />
-            <Button title="Button" styles="rounded-md" />
-            <Button title="Button" styles="rounded-full" />
+            <Button title="Button" styles="rounded-sm bg-yellow-500" />
+            <Button title="Button" styles="rounded-md bg-yellow-500" />
+            <Button title="Button" styles="rounded-lg bg-yellow-500" />
+            <Button title="Button" styles="rounded-full bg-yellow-500" />
         </div>
         <div className="flex flex-col items-center gap-2">
             <h3 className="text-md font-medium">Large</h3>
-            <Button title="Button" styles="rounded-sm text-lg py-3 px-6" />
-            <Button title="Button" styles="rounded-md text-lg py-3 px-6" />
-            <Button title="Button" styles="rounded-full text-lg py-3 px-6" />
+            <Button title="Button" styles="rounded-sm text-lg py-3 px-6 bg-green-500" />
+            <Button title="Button" styles="rounded-md text-lg py-3 px-6 bg-green-500" />
+            <Button title="Button" styles="rounded-lg text-lg py-3 px-6 bg-green-500" />
+            <Button title="Button" styles="rounded-full text-lg py-3 px-6 bg-green-500" />
         </div>
       </div>
     </div>
